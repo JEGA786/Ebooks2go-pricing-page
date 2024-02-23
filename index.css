@@ -25,7 +25,7 @@
 }
 .card-div{
     width: 350px;
-    height: 600px !important;
+    min-height: 600px !important;
     border: none !important;
     transition: all 0.5s ease-in-out;
 }
@@ -38,14 +38,24 @@
     height: 100px;
     width: 150px !important;
 }
-.more,a,.fa-phone{
+#more,#more-center,#more-last{
+    display: none;
+}
+.more,.more-center,.more-last{
+    cursor: pointer;
+    background: transparent;
+    border: none;
    float: right;
     color: var(--primary-color) !important;
     
 }
+.fa-phone{
+     color: var(--primary-color) !important;
+ }
 .card-prah{
     font-size:clamp(10px,4vw,13px);
     line-height: 24px;
+    padding: 0px 15px 0px 15px;
 }
 .page-prah{
     font-size:clamp(15px,4vw,16px);   
@@ -78,37 +88,3 @@
 }
 
 
-/* -----------------------------------------2nd design----------------------- */
-
-.price-card-glass{
-    background-image: url(/images/amazon2.gif) !important;
-    background-size:cover !important;
-}
-.card-glass{
-    width: 350px;
-    height: 600px !important;
-    background: transparent !important;
-    background: rgba(250, 225, 83, 0.603);
-    box-shadow: 0 8px 32px 0 rgba(192, 184, 67, 0.918);
-    backdrop-filter: blur( 6px );
-    -webkit-backdrop-filter: blur( 6px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-.card-imgs-glass{
-    height: 200px;
-    border-bottom:solid 0.1px rgb(202, 182, 70) ;
-    /* background-color: var(--secondary-color); */
-}
-
-.price-card-glass{
-    background-image: url(/images/amazon2.gif) !important;
-    background-size:cover !important;
-}
-
-@media screen and (max-width: 910px) {
-    .price-card-glass{
-        background-image: url(/images/amazon2.gif) !important;
-        background-size:contain !important;
-    }
-   }
