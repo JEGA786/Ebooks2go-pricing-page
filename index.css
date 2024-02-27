@@ -41,21 +41,35 @@
 #more,#more-center,#more-last{
     display: none;
 }
-.more,.more-center,.more-last{
+.more,.more-center,.more-last,.fa-hand-o-right{
     cursor: pointer;
     background: transparent;
     border: none;
-   float: right;
+   float: right !important;
     color: var(--primary-color) !important;
+
     
+}
+.more-center,.more-last{
+    position: relative;
+    bottom: px;
 }
 .fa-phone{
      color: var(--primary-color) !important;
  }
+ 
 .card-prah{
     font-size:clamp(10px,4vw,13px);
     line-height: 24px;
     padding: 15px !important;
+}
+.point-text{
+    display: flex;
+    justify-content: start ;
+    align-items: start;
+}
+.point{
+    line-height:15px !important;
 }
 .page-prah{
     font-size:clamp(15px,4vw,16px);   
