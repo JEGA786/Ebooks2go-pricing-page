@@ -38,7 +38,7 @@
     transition: all 0.5s ease-in-out;
 }
 .card-imgs{
-    box-shadow: inset 0px 0px 20px 1px #e1e1e1 !important;
+    box-shadow: inset 0px 0px 20px #e7e6e6 !important;
     height: 150px;
     /* background-color: var(--secondary-color); */
 
