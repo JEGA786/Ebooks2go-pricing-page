@@ -23,6 +23,7 @@
 /* -------------------------cards----------------------------- */
 .price-card-page .price-card{
     background: var(--primary-light-color) !important;
+    /* box-shadow: inset 0 0 20px #f7efc3 !important; */
 }
 .heading{
     font-size:clamp(18px,4vw,20px);
@@ -37,7 +38,7 @@
     transition: all 0.5s ease-in-out;
 }
 .card-imgs{
-    box-shadow: inset 0 0 29px #e1e1e1 !important;
+    box-shadow: inset 0px 0px 20px 1px #e1e1e1 !important;
     height: 150px;
     /* background-color: var(--secondary-color); */
 
