@@ -40,12 +40,12 @@
 .card-imgs{
     box-shadow: inset 0px 0px 20px #e7e6e6 !important;
     height: 150px;
-    /* background-color: var(--secondary-color); */
+    /* background-color: var(--text-white-color); */
 
 }
 .card-img{
     height: 100px;
-    width: 120px !important;
+    width: 130px !important;
 }
 #more,#more-center,#more-last{
     display: none;
@@ -116,3 +116,15 @@
 } */
 
 
+/* ----------------------2ND------------------------- */
+
+.card-imgs-2{
+    /* box-shadow: inset 0px 0px 20px #e7e6e6 !important; */
+    height: 150px;
+    background-color: var(--secondary-color);
+
+}
+.card-img-2{
+    height: 100px;
+    width: 130px !important;
+}

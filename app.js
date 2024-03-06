@@ -4,7 +4,7 @@ const amazonMoreFunction = () => {
     const btnText = document.getElementById("moreBtn");
   
     if (dots.style.display === "none") {
-      // btnText.style.position = "static";  
+      // k  
       // btnText.style.bottom = "20px";
       dots.style.display = "inline";
       btnText.innerHTML = "More...";
