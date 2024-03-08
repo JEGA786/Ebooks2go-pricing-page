@@ -115,16 +115,3 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 } */
 
-
-/* ----------------------2ND------------------------- */
-
-.card-imgs-2{
-    /* box-shadow: inset 0px 0px 20px #e7e6e6 !important; */
-    height: 150px;
-    background-color: var(--secondary-color);
-
-}
-.card-img-2{
-    height: 100px;
-    width: 130px !important;
-}
