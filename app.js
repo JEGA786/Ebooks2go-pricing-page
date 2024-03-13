@@ -7,7 +7,7 @@ const amazonMoreFunction = () => {
       // k  
       // btnText.style.bottom = "20px";
       dots.style.display = "inline";
-      btnText.innerHTML = "More...";
+      btnText.innerHTML = "Read More...";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
@@ -24,7 +24,8 @@ const amazonMoreFunction = () => {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "More...";
+      btnText.innerHTML = "Read More...";
+      btnText.style.marginTop = "20px";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
@@ -40,7 +41,8 @@ const amazonMoreFunction = () => {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "More...";
+      btnText.innerHTML = "Read More...";
+      btnText.style.marginTop = "20px";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";

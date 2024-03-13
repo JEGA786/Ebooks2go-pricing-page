@@ -28,6 +28,11 @@
 .heading{
     font-size:clamp(18px,4vw,20px);
 }
+.package-name{
+    color: var(--primary-color);
+    font-size:clamp(16px,4vw,17px);
+    font-weight: 501 !important;
+}
 .fa-amazon{
     font-size: 13px !important;
 }
